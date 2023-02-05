@@ -1,3 +1,6 @@
 [submodule "Titanic-Problem"]
 	path = Titanic-Problem
 	url = ./Titanic-Problem
+[submodule "WorldCup2022"]
+	path = WorldCup2022
+	url = ./WorldCup2022
