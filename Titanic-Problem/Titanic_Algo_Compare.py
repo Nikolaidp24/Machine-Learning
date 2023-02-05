@@ -35,8 +35,7 @@ for i in range(1, 31):
     score.append(metrics.accuracy_score(y_pred, y_test))
 best_knn = np.argmax(score) + 1
 KNN_score = np.max(score)
-algo_compare = []
-algo_compare.append(KNN_score)
+algo_compare = [KNN_score]
 
 # Logistic Regression Algorithm
 logreg = LogisticRegression()
