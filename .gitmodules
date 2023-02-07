@@ -4,3 +4,6 @@
 [submodule "WorldCup2022"]
 	path = WorldCup2022
 	url = ./WorldCup2022
+[submodule "Diabetes_Indicator"]
+	path = Diabetes_Indicator
+	url = ./Diabetes_Indicator
