@@ -11,4 +11,5 @@ from sklearn.compose import make_column_transformer
 from sklearn.pipeline import make_pipeline
 
 
+# read in the data
 df = pd.read_csv('housing.csv')
