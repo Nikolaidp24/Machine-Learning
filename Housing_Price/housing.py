@@ -12,14 +12,3 @@ from sklearn.pipeline import make_pipeline
 
 
 df = pd.read_csv('housing.csv')
-# how to plot the correlation matrix of the median housing price column in the df and the other columns
-# print(df.corr()['median_house_value'].sort_values(ascending=False))
-
-# another way to plot the correlation matrix using matplotlib
-# corr_matrix = df.corr()
-# plt.matshow(corr_matrix)
-# plt.show()
-# show the label as well
-# plt.matshow(corr_matrix)
-# df.corr() is depcreacated so use df.corr().index instead
-# how to disable pandas warning
