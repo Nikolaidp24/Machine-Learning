@@ -7,3 +7,6 @@
 [submodule "Diabetes_Indicator"]
 	path = Diabetes_Indicator
 	url = ./Diabetes_Indicator
+[submodule "Housing_Price"]
+	path = Housing_Price
+	url = ./Housing_Price
