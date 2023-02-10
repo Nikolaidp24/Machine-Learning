@@ -20,3 +20,7 @@ One more thing to notice about this example is that I started using more data pr
 
 This is a multi-class classification problem.
 
+## Example Four: Housing Price Prediction
+In the example, I have increased the use of plotting in the jupyter notebook to visualize data better, this example utilizes four primary models for evaluation purposes: ***LinearRegression, DecisionTreeRegressor, SVR, and RandomForestRegressor***, I managed to fine tune the model down by quite a bit and the result should be directly visible in the plot.
+
+This is a regression problem.
