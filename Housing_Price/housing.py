@@ -147,5 +147,5 @@ print(before_rmse)
 rmse_dict = {'LinearRegression': [final_rmse[0], before_rmse[0]], 'DecisionTreeRegressor': [final_rmse[1], before_rmse[1]], 'SVR': [final_rmse[2], before_rmse[2]], 'RandomForestRegressor': [final_rmse[3], before_rmse[3]]}
 df_result = pd.DataFrame.from_dict(data=rmse_dict, orient='index')
 df_result.plot(kind='barh', grid=True, figsize=(5, 3))
-plt.legend(['Before Tuning', 'After Tuning'])
+plt.legend(['After Tuning', 'Before Tuning'])
 plt.show()
